@@ -1,4 +1,4 @@
-import express, { NextFunction, Request, Response } from 'express'
+import express from 'express'
 import dotenv from 'dotenv'
 import { router } from './routes'
 import { errorHandler } from './middlewares/errorMiddleware'
